@@ -6,12 +6,14 @@
  * \"Programming is like building a multilingual puzzle
 */
 
-/* main - entry
+/*
+ * main - entry
  * point always returns zero
 */
 
 int main(void)
 {
+	/*main function*/
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
