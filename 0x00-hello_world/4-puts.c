@@ -2,11 +2,14 @@
 #include <stdlib.h>
 
 /*
-* Write a C program that prints exactly:
-* \"Programming is like building a multilingual puzzle
+ * Write a C program that prints exactly:
+ * \"Programming is like building a multilingual puzzle
 */
 
-/*main func always returns zero*/
+/* main - entry
+ * point always returns zero
+*/
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
