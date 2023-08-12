@@ -3,13 +3,13 @@
 /**
  * main - Prints the alphabet in lowercase, except e and q
  *
- * Return 0 Always (Success)
+ * return 0 Always (Success)
  */
 int main(void)
 {
 	char c;
 
-	for (c = 'a';c <= 'z';c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != 'e' && c != 'q')
 			putchar(c);
