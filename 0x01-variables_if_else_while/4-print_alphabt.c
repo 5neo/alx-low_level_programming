@@ -3,9 +3,9 @@
 /**
  * main - Prints the alphabet in lowercase, except e and q
  *
- * Returns 0 : Always (Success)
+ * Return 0 Always (Success)
  */
-int main (void)
+int main(void)
 {
 	char c;
 
