@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * function main - Entry point
+/**
+ * main - Prints alphabet
  *
- * Return: Always 0
+ * Return: Always (Success)
  */
 int main(void)
 {
