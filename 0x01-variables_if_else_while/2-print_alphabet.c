@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /*
- * mai finc print_alphabet
+ * main - Entry point
  *
- * returns 0
+ * Return: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 	putchar('\n');
-	
+
 	return (0);
 }
