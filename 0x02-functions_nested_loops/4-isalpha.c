@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - check if the given charachter c is in lower case
- * char c
+ * char c is a test
  *
  * Return: 1 (True) else 0 (False)
  */
