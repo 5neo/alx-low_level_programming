@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include "holberton.h"
+#include <ctype.h>
 
 /**
  * _isalpha - check if the given character is lower case.
- * @c: character to test.
+ * character to test.
  *
  * Return: 1 (True) else 0 (False)
  */
