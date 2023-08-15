@@ -2,8 +2,8 @@
 #include <ctype.h>
 
 /**
- * _isalpha - check if the given character is lower case.
- * character to test.
+ * _isalpha - check if the given charachter c is in lower case
+ * char c
  *
  * Return: 1 (True) else 0 (False)
  */
