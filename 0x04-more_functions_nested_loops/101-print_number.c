@@ -1,27 +1,21 @@
 #include <stdio.h>
 
 /**
-  * print_number - Prints an integer.
-  * @n: The integer to prints.
-  *
-  * Return: Nothing!
-  */
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
+ */
 void print_number(int n)
 {
-	int k = n;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
-		n *= -1;
-		k = n;
-		putchar('-');
+		_putchar('-');
+		num = -num;
 	}
 
-	k /= 10;
+	if ((num / 10) > 0)
+		print_number(num / 10);
 
-	if (k != 0)
-		print_number(k);
-
-	putchar((int) n % 10 + '0');
-
+	_putchar((num % 10) + '0');
 }
