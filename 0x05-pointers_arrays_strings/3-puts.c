@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 /**
-  * _strlen - Returns the length of a string
-  * @s: String to count
+  * _puts - Prints a string
+  * @str: The string to print
   *
-  * Return: String length
+  * Return: void
   */
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int c = 0;
-
-	for (; *s != '\0'; s++)
+	for (; *str != '\0'; str++)
 	{
-		c++;
+		putchar(*str);
 	}
 
-	return (c);
+	putchar('\n');
 }
