@@ -5,7 +5,6 @@
   *
   * @a: An integer to swap
   * @b: Another integer to swap
-  * @aux: the container
   *
   * Return: void
   */
