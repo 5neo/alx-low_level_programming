@@ -33,7 +33,7 @@ size_t check_looped_listfree(listint_t *head)
 		tort = head;
 		while (tort != har)
 		{
-			node++;
+			nod++;
 			tort = tort->next;
 			har = har->next;
 		}
@@ -86,7 +86,6 @@ size_t free_listint_safe(listint_t **h)
 		}
 		*h = NULL;
 	}
-
 	h = NULL;
 	return (nod);
 }
