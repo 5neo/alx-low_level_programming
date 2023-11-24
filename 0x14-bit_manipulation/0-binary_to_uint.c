@@ -5,7 +5,7 @@
  * @b: pointer to the string of 0's and 1's
  * Return: an unsigned int number
  */
-unsigned int binaryToUint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int un_int;
 	int len, binary;
@@ -16,7 +16,7 @@ unsigned int binaryToUint(const char *b)
 	un_int = 0;
 
 	for (len = 0; b[len] != '\0'; len++)
-		;
+	;
 
 	for (len--, binary = 1; len >= 0; len--, binary *= 2)
 	{
